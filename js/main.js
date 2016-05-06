@@ -1,0 +1,267 @@
+
+var subtitles_for_video = [[
+    {time:0, caption:"In physics, “like charges repel each other while opposite charges attract,” right?"},
+    {time:5.05, caption:" So why would anyone want to engage in homosexual activity?"},
+    {time:6.19, caption:"Are they out of their minds? Are they <span class=\"highlight\">psycho</span>? "},
+    {time:9.12, caption:" Isn’t homosexuality <span class=\"highlight\">inherited?</span> "},
+    {time:12.27, caption:" It’s not an acquired characteristic but an innate trait."},
+    {time:15.09, caption:" I think this is just a <span class=\"highlight\">normal</span> sexual orientation."},
+    {time:18.24, caption:" I don’t have any issue with homosexuality. "},
+    {time:20.06, caption:" It’s just like, ‘I like drinking beer’ and he likes drinking some other beverage."},
+    {time:23.06, caption:" It’s just like that, very simple."},
+    {time:25.04, caption:" I think it’s okay."},
+    {time:26.09, caption:" If they are <span class=\"highlight\">good-looking</span>, they will be pleasing to me. "},
+    {time:29.01, caption:" But if they don’t, they <span class=\"highlight\">nauseate me.</span> "},
+    {time:33.24, caption:" From the perspective of human relationships,"},
+    {time:38.02, caption:" It’s okay if they live together. "},
+    {time:42.16, caption:" But from the perspective of human reproduction,"},
+    {time:46.08, caption:" it’s not gonna work. "},
+    {time:47.07, caption:" It’s absolutely bad!"},
+    {time:48.25, caption:" Homosexuality won’t do any good for society. "},
+    {time:50.07, caption:" Two men living together? "},
+    {time:51.21, caption:" Who does the <span class=\"highlight\">housework?</span> "},
+    {time:53.07, caption:" Men certainly can’t do housework."},
+    {time:54.19, caption:" Women should do the housework. "},
+    {time:56.08, caption:" Then why would two men bother to get married? "},
+    {time:57.48, caption:" The purpose for getting married is to make a family."},
+    {time:59.27, caption:" Families with one man are already terrible. "},
+    {time:63.01, caption:" Not to mention a family which is has two men."},
+    {time:64, caption:"If it exists, it has a reason."},
+    {time:65.24, caption:" I don’t discriminate them"},
+    {time:66.25, caption:" But I won’t try to be gay myself. "},
+    {time:69.16, caption:" I can’t stand two men being together. "},
+    {time:73.03, caption:" Two dudes making out? "},
+    {time:76.13, caption:" I don’t think it’s appropriate. "},
+    {time:78.21, caption:" Everyone has his own morals and ethics. "},
+    {time:82.04, caption:" I think it’s his own choice. "},
+  ],[ //subtitle for video2
+    {time:0, caption:"What? <span class=\"highlight\">Love</span>? Men with other men? "},
+    {time:2.17, caption:" Then it’s just a friendship, like <span class=\"highlight\">“bro love.”</span> Right? "},
+    {time:6.23, caption:"They are out of their minds."},
+    {time:8.25, caption:"True love does not only exist between heterosexual people."},
+    {time:12.07, caption:"No way! <span class=\"highlight\">No!</span> No! <span class=\"highlight\">No how!</span>No! No way!"},
+    {time:16.06, caption:"<span class=\"highlight\">Absolutely</span> no!"},
+    {time:17.22, caption:"That’s just called <span class=\"highlight\">brotherhood</span>. How could it be love?"},
+    {time:19.04, caption:"Feels very <span class=\"highlight\">shady.</span>"},
+    {time:21.27, caption:"It’s just…not like a <span class=\"highlight\">normal relationship.</span>"},
+    {time:26.03, caption:" I think it shouldn’t be described as love. "},
+    {time:28.23, caption:" It’s like, a <span class=\"highlight\">mutual dependence.</span> "},
+    {time:31.04, caption:" They have matching personalities. "},
+    {time:34.06, caption:" It means one guy enjoys talking to another guy and thinks that he has good temper. "},
+    {time:37.02, caption:" Usually, these people have <span class=\"highlight\">mental illness.</span>  "},
+    {time:39.11, caption:" They probably feel <span class=\"highlight\">insecure</span> about the opposite sex."},
+    
+  ],[ //subtitle for video3
+    {time:1.04, caption:"AIDS/HIV? It has something to do with sex, right? "},
+    {time:7.20, caption:" Sex. It’s like… those kinds of men who are very <span class=\"highlight\">filthy.</span> "},
+    {time:12.09, caption:"They got it from <span class=\"highlight\">cross-contamination. </span>"},
+    {time:15.19, caption:"[It affects] those who don’t pay attention to their life styles and behaviors. "},
+    {time:20.19, caption:"whose work…is sort of…"},
+    {time:23.18, caption:"[Reporter]what do you mean?"},
+    {time:25.26, caption:"I mean people who work for <span class=\"highlight\">night clubs</span> are more likely to get AIDS/HIV. "},
+    {time:28.19, caption:"Gay men are also very likely to get AIDS/HIV. "},
+    {time:30.20, caption:"I don’t know what that is."},
+    {time:32.07, caption:" AIDS/ HIV is transmitted by blood transfusion or sex.  "},
+    {time:38.15, caption:" Actually if you don’t <span class=\"highlight\">mess around,</span>"},
+    {time:41.11, caption:" you won’t get the disease. "},
+    {time:44.09, caption:" There are a lot of ways that you can get the disease. "},
+    {time:46.14, caption:" For example, if you are <span class=\"highlight\">slutty.</span> "},
+    {time:47.09, caption:" or if you inherit it from your family."},
+    {time:51.08, caption:"Or if… "},
+    {time:52.10, caption:" Hmmm…  "},
+    {time:53.07, caption:" I only know these two."},
+    {time:56.14, caption:" Uh… those people who smoke."},
+    {time:60.19, caption:" You know, [HIV is spread through] saliva or sex.  "},
+    {time:63.16, caption:" Everybody knows that.  "},
+    {time:65.11, caption:" If you behave well, "},
+    {time:66.28, caption:" will you get HIV? "},
+    {time:70.03, caption:" I think, people who are <span class=\"highlight\">weak</span> [are more likely to get HIV]"},
+    {time:73.24, caption:"But that’s not all,"},
+    {time:77.06, caption:"If they are thin, they are relatively more likely to be infected. "},
+    {time:81.18, caption:"If they are fat, they will be less likely to get HIV."},
+    {time:86.26, caption:" HIV is spread through blood, animals…"},
+    {time:97.08, caption:" If you are in a normal heterosexual relationship,  "},
+    {time:100.10, caption:" I think there is still some possibility you could get HIV, but the chance is relatively small. "},
+    {time:103.26, caption:" People get HIV if they do drugs… "},
+    {time:107.15, caption:"or those who… I’m <span class=\"highlight\">embarrassed</span> to say that. "},
+    {time:111.21, caption:"How do I put this… those who…those who …"},
+    {time:114.19, caption:"You know what I mean, right?"},
+    {time:116.16, caption:" ANYONE who’s in an <span class=\"highlight\">abnormal</span> or <span class=\"highlight\">adulterous</span> relationship is more likely to get HIV. "},
+    {time:122.21, caption:" Hmm, it depends on how he/she gets HIV.  "},
+    {time:126.29, caption:" It’s <span class=\"highlight\">understandable</span> if she/he gets HIV from blood transfusion.  "},
+    {time:137.04, caption:" But I think it’s <span class=\"highlight\">bad</span> if he/she gets it from sex.  "},
+  ],[//subtitle for video4
+    {time:0.00, caption:"Gay men are more likely to get HIV."},
+    {time:4.12, caption:" We learned this from science class. "},
+    {time:6.11, caption:"Homosexuality is just a sexual orientation"},
+    {time:9.10, caption:"HIV is spread through different routes. "},
+    {time:12.16, caption:"But if you are homosexual, it doesn’t necessarily mean you are HIV positive. "},
+    {time:17.01, caption:"Maybe you just went to a public bath house and got the disease. "},
+    {time:22.24, caption:"It has nothing to do with who you are. "},
+    {time:25.07, caption:"Yes, I think so."},
+    {time:28.15, caption:"I think homosexuality equals <span class=\"highlight\">sexual promiscuity.</span> "},
+    {time:31.17, caption:"Hehehe."},
+    {time:32.25, caption:" <span class=\"highlight\">Absolutely! </span> "},
+    {time:33.29, caption:" [Reporter] Why?"},
+    {time:34.20, caption:" Because you know…homosexuality… "},
+    {time:36.12, caption:" These two things must have some relationship. You can search online and you will see it."},
+    {time:40.14, caption:" As far as I know, gay men have a greater chance of getting HIV. "},
+    {time:47.09, caption:" Of course. We’ve had this kind of lecture before. "},
+    {time:52.06, caption:"[Reporter] What kind of lecture?"},
+    {time:53.25, caption:"About HIV and AIDS. A teacher came to our school and taught us. "},
+    {time:57.20, caption:" Personally I think there is no relationship. How do I put this? "},
+    {time:60.14, caption:" HIV won’t spread through hand shaking or other contacts."},
+    {time:63.28, caption:" Yes, absolutely yes.  "},
+    {time:65.18, caption:" You won’t know if your partner has HIV.   "},
+    {time:72.18, caption:" You can’t guarantee if your partner has it, you won’t be infected. "},   
+  ],[//subtitle for video5
+    {time:0.00, caption:"HIV drugs are free now. Didn’t you know that?"},
+    {time:3.46, caption:" HIV is a very <span class=\"highlight\">serious</span> disease. "},
+    {time:6.02, caption:"If you want to treat it, it’s probably very expensive. "},
+    {time:10.06, caption:"It’s hard to say. "},
+    {time:11.15, caption:"Our country provides free treatment and prevention for HIV patients.  "},
+    {time:18.03, caption:"Right now there are no drugs that can cure HIV. "},
+    {time:20.18, caption:"Drugs can treat your symptoms, "},
+    {time:24.23, caption:"But AIDS/HIV is not curable. "},
+    {time:27.20, caption:"I think it would be very expensive. "},
+    {time:29.17, caption:"And because some of the drugs are imported and some are made in our country,"},
+    {time:34.11, caption:" I’m not clear about the price. "},
+    {time:35.21, caption:" But I think it would cost several hundred thousand.  "},
+    {time:38.28, caption:" It will definitely cost lots of money.  "},
+    {time:39.26, caption:" Even if you spend the money, you wouldn’t be cured. "},
+    {time:41.18, caption:" There is only one word after you get HIV, which is “death”. "},
+    {time:46.02, caption:" Well, some people are just like that.  "},
+    {time:49.24, caption:"They were doing just fine and they had to ask for it. "},
+    {time:51.06, caption:"They had to go and play with fire, and now the fire gets to you.  "},  
+  ],[//subtitle for video6
+    {time:0.00, caption:"If it’s treated, I think people can live very long. "},
+    {time:5.17, caption:" I don’t know much about this. I don’t think they would live very long.  "},
+    {time:8.29, caption:"A year? Within ten years? "},
+    {time:11.21, caption:"If they are in good health and if they work out everyday, [they probably will live longer.]"},
+    {time:14.25, caption:"I heard that one athlete lived with HIV for ten years.  "},
+    {time:19, caption:"Yep, but that’s the only one [who has lived this long]. "},
+    {time:21.18, caption:"Everyone says that they won’t live long. "},
+    {time:25.29, caption:"As far as I know, they won’t live long. "},
+    {time:27.24, caption:"And they die in very <span class=\"highlight\">poor shape.</span> "},
+    {time:30.11, caption:"I feel like if you don’t know…"},
+    {time:33.26, caption:"I mean if you got HIV and you don’t know about it, "},
+    {time:34.19, caption:" You can live like a normal person.   "},
+    {time:36.27, caption:" And you will live very long.   "},
+    {time:39.01, caption:"But once you know you have HIV,"},
+    {time:41.18, caption:" you couldn’t live normally [knowing that], so then…"},
+    {time:44.15, caption:" You would have a few months? Maybe three months?  "},
+    {time:47.12, caption:"I think I heard that they can live for three months. "},  
+  ],
+  ];
+
+
+  var questions = [
+  "What do you think of homosexuality?",
+  "Can two gay men really love each other?",
+  "How is HIV transmitted?",
+  "Is there any relationship between HIV and homosexuality?",
+  "How much does it cost to treat HIV?", 
+  "How long can people with HIV live?"
+  ];
+
+$(document).ready(function () {
+
+    for (var questionNumber = 1; questionNumber <= 7; questionNumber++) {
+        var registerCall = function (i) {
+            $("#question" + i).on("click", function () {
+                videoClickCallback(i);
+            })
+        };
+        registerCall(questionNumber);
+    }
+    var registerVideoCallOnFinish = function (i) {
+        $("#video" + i).on("finish", function () {
+            videoPausedorFinished(i);
+        })
+    };
+    var registerVideoCallOnPlay = function (i) {
+        $("#video" + i).on("play", function (data) {
+            videoPlayHit(i, data);
+        })
+    };
+    for (var videoNumber = 1; videoNumber <= 7; videoNumber++) {
+        var registerVideoCall = function (i) {
+            $("#video" + i).on("playProgress", function (e, data) {
+                videoPlayProgress(i, data);
+            })
+        };
+        registerVideoCall(videoNumber);
+        registerVideoCallOnPlay(videoNumber);
+        registerVideoCallOnFinish(videoNumber);
+    }
+});
+//   for(var videoNumber = 1; videoNumber <=7; videoNumber++){
+//     var registerVideoCall = function(i){
+//       $("#video" + i).hover(function(){
+//         hoverVideo(i);
+//       })
+//     };
+//     registerVideoCall(videoNumber);
+// } 
+// function hoverVideo(videoSequenceId){
+//   if(videoSequenceId == 4){
+//     $("#filmstrip").stop().animate({"left":-320}, {queue:false, duration:600});
+// }
+//   else if(videoSequenceId == 5){
+//     $("#filmstrip").stop().animate({"left":-640}, {queue:false, duration:600});
+//   }
+//   else {
+//     $("#filmstrip").stop().animate({"left":0}, {queue:false, duration:600});
+//   }
+// }
+function videoPlayProgress(videoSequenceId, data) {
+    var currentSubtitle = subtitles_for_video[videoSequenceId - 1];
+    for (var i = currentSubtitle.length - 1; i >= 0; i--) {
+        if (data.seconds > currentSubtitle[i].time) {
+            $("#subtitles").html(currentSubtitle[i].caption);
+            return;
+        }
+    }
+};
+
+function videoClickCallback(videoSequenceId) {
+    if (videoSequenceId == 5) {
+        $("#filmstrip").stop().animate({
+            "left": -320
+        }, {
+            queue: false,
+            duration: 600
+        });
+    } else if (videoSequenceId == 6) {
+        $("#filmstrip").stop().animate({
+            "left": -640
+        }, {
+            queue: false,
+            duration: 600
+        });
+    } else {
+        $("#filmstrip").stop().animate({
+            "left": 0
+        }, {
+            queue: false,
+            duration: 600
+        });
+    }
+    /* Needs vimeo plugin to work */
+    $("#question_title").text(questions[videoSequenceId - 1]);
+    $("#question" + videoSequenceId).css('color', '#8F5332');
+    $(".streetinterview").not("#video" + videoSequenceId).each(function () {
+        $(this).vimeo("pause");
+    });
+    $("#video" + videoSequenceId).vimeo("play");
+    $("#video" + videoSequenceId).addClass("enlarged");
+}
+
+function videoPausedorFinished(videoSequenceId) {
+    $("#video" + videoSequenceId).removeClass("enlarged");
+}
+
+function videoPlayHit(videoSequenceId) {
+    $(".streetinterview").removeClass("enlarged");
+    $("#video" + videoSequenceId).addClass("enlarged");
+}
