@@ -191,6 +191,12 @@ img .main-sketch {
         font-size: 1.2em;
         line-height: 1.3em;
     }
+    .story_intro {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.2em;
+        line-height: 1.3em;
+    }
 }
 
 
@@ -574,6 +580,17 @@ end of the navigation bar
         transform: rotate(-45deg) translate(-20px, 20px);
         opacity: 0;
     }
+}
+
+
+/********************************************************  start of quote highlighter  **************************/
+
+.quote {
+    background-image: url(../assets/images/underline.png);
+    background-repeat: repeat-x;
+    background-position: 100% 100%;
+    padding-bottom: 4px;
+    /*    white-space: nowrap;*/
 }
 
 
