@@ -7,30 +7,19 @@ body {
     background-image: url("../assets/images/texture_altered_01.jpg");
     background-size: 100%;
     overflow-x: hidden;
-   /* font-family: 'IM Fell DW Pica', serif;*/
-   font-family: Georgia;
+    /*    font-family: 'Georgia', serif;*/
+    font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
-.section{
+.section {
     height: 100vh;
     overflow-x: hidden;
 }
 
-.slimScrollBar {
-    width: 0px !important;
-}
-
 #landing_page {
     top: 0px !important;
+    font-family: 'IM Fell DW Pica', serif;
 }
-
-.intro2 h4{
-
-    padding-top: 20px;
-}
-
-
-/********************* fix: reload the leaves function everytime the window is resized ****************/
 
 .main-sketch {
     padding-left: 0px;
@@ -52,6 +41,11 @@ img .main-sketch {
     padding-bottom: auto;
 }
 
+.main-title h1 {
+    color: #8F5332;
+    font-size: 42px;
+}
+
 .main-title h2 {
     color: #2A2A29;
     line-height: 12px;
@@ -59,16 +53,6 @@ img .main-sketch {
 
 .main-title h5 {
     line-height: 20px;
-}
-
-.main-title h1 {
-    color: #8F5332;
-    font-size: 42px;
-}
-
-.intro1 {
-    height: 100vh;
-    /*    position: relative;*/
 }
 
 #graphics {
@@ -79,36 +63,34 @@ img .main-sketch {
     height: 100vh;
 }
 
-
-/*************Story one - Maitian*****************/
-
-#story1 {
-    text-align: center;
-    overflow-y:hidden;
+.intro {
+    position: absolute;
+    top: 50vh;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    font-size: 1.5em;
+    line-height: 1.6em
 }
 
-.father_son {
-    /*    position: absolute;*/
-    bottom: 0px;
-    left: 0px;
-    width: 80%;
-    z-index: -99;
+.intro2 {
+    font-size: 1.5em;
+    line-height: 1.6em;
 }
 
-.walking_man{
-    right:0px;
-
+.intro2 p {
+    padding-top: 20px;
 }
 
-
-/*************Story two - Xiaoliu*****************/
-
-#story2 {
+.story_nm {
     text-align: center;
 }
 
 .story_name {
-    color: saddlebrown
+    color: saddlebrown;
+    text-align: center;
 }
 
 .story_line {
@@ -132,14 +114,114 @@ img .main-sketch {
 }
 
 .story_intro {
-    color: #424241;
+    /*    color: #424241;*/
     padding-top: 10px;
+    font-size: 1.5em;
+    line-height: 1.6em;
 }
 
-.story_name{
-
+.story_name {
     padding-bottom: 20px;
 }
+
+#main_intro {
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+
+/*start of the media query */
+
+
+/*desktop view*/
+
+@media(min-width: 768px) {
+    .main-title {
+        padding-top: 50%;
+    }
+    .graphic_container {
+        position: relative;
+    }
+    .graphic {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+}
+
+
+/*mobile view*/
+
+@media(max-width: 767px) {
+    .main-title {
+        padding-top: 10px;
+    }
+    .graphic_container {
+        position: relative;
+    }
+    .graphic {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    .intro {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.2em;
+        line-height: 1.3em;
+    }
+    .intro2 {
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 1.2em;
+        line-height: 1.3em;
+    }
+}
+
+
+/*************Story one - Maitian*****************/
+
+#story1 {
+    /*    text-align: center;*/
+    overflow-y: hidden;
+}
+
+.father_son {
+    /*    position: absolute;*/
+    bottom: 0px;
+    left: 0px;
+    width: 80%;
+    z-index: -99;
+}
+
+.walking_man {
+    right: 0px;
+}
+
+
+/*************Story two - Xiaoliu*****************/
+
+
+/*
+#story2 {
+    text-align: center;
+}
+*/
 
 .dialogue_left {
     width: 200px;
@@ -162,6 +244,10 @@ img .main-sketch {
     text-align: center;
 }
 
+.dialogue_text h4 {
+    font-size: 16px;
+}
+
 @media(min-width: 768px) {
     .story_intro {
         padding-left: 20%;
@@ -169,6 +255,7 @@ img .main-sketch {
     }
     .walking_man {
         width: 50% !important;
+        å
         /*        position: absolute;*/
         /*
         bottom: 0px;
@@ -216,16 +303,22 @@ img .main-sketch {
 
 /*************Story three - Xiaoxin*****************/
 
+
+/*
 #story3 {
     text-align: center;
 }
+*/
 
 
 /*************Story four - jiulong*****************/
 
+
+/*
 #story4 {
     text-align: center;
 }
+*/
 
 
 /***********street interview and experts ***************/
@@ -270,98 +363,6 @@ top: 0px;
     text-align: center;
     padding-right: 10px;
     padding-left: 10px;
-}
-
-
-/*start of the media query */
-
-
-/*desktop view*/
-
-@media(min-width: 768px) {
-    .main-title {
-        padding-top: 50%;
-    }
-    .intro {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .intro {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-    }
-    .graphic_container {
-        position: relative;
-    }
-    .graphic {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 60%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-    }
-    video.fillWidth {
-        width: 100%;
-        right: 0px;
-    }
-}
-
-
-/*mobile view*/
-
-@media(max-width: 767px) {
-    .main-title {
-        padding-top: 10px;
-    }
-    .intro {
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 18px;
-    }
-    .intro {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-    }
-
-    .intro2{
-        padding-left: 10%;
-        padding-right:10%;
-
-    }
-    .graphic_container {
-        position: relative;
-    }
-    .graphic {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-    }
-    video.fillWidth {
-        width: 100%;
-        right: 0px;
-    }
 }
 
 
@@ -582,63 +583,46 @@ end of the navigation bar
     position: relative;
     text-align: center;
     color: #8F5332;
-    font-size: 46px;
+    font-size: 40px;
 }
 
-#filmstrip {
-    margin-top: 50px;
-    position: absolute;
-    left: 0;
-    width: 2400px;
-    /* do math based on how many videos you have */
+section {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
 }
 
-#filmstrip::before,
-#filmstrip::after {
-    content: " ";
-    display: table;
-}
-
-#filmstrip::after {
-    clear: both;
-}
-
-#filmstrip iframe {
+.container {
+    width: 15%;
     float: left;
-    height: 180px;
-    width: 320px;
 }
 
-.street_interview {
-    transition: all .2s ease-in-out;
+#video-container {
+    position: relative;
+    top: 10px;
+    margin-left: 15%;
+    height: 200px;
+    float: left;
 }
 
-.street_interview:hover {
-    transform: scale(1.2);
+.iframe-holder {
+    display: block;
+    height: 270px;
+    width: 480px;
+    margin: 0 auto;
 }
 
 #subtitles {
     position: relative;
-    top: 300px;
+    top: 150px;
     font-size: 30px;
-    text-align: center;
+    left: 100px;
+    height: 100px;
+    display: -webkit-inline-box;
 }
 
 .highlight {
     font-size: 30px;
     color: #8F5332;
-}
-
-ul#keyword {
-    padding: 0;
-}
-
-ul#keyword li {
-    display: inline;
-    padding: 40px 60px;
-}
-
-.enlarged {
-    width: 340px !important;
-    height: 200px !important;
 }
