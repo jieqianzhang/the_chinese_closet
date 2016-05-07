@@ -568,43 +568,45 @@ end of the navigation bar
         position: relative;
         text-align: center;
         color: #8F5332;
-        font-size: 40px;
+        font-size: 1.5em;
+        line-height: 1.6em;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    
+    /*
     section {
-        width: 80%;
-        height: 200px;
-        margin: auto;
-        padding: 10px;
-    }
-    
-    .container {
-        width: 15%;
-        float: left;
-    }
-    
+      width: 100%;
+      height: 200px;
+      margin: auto;
+      padding: 10px;
+  }
+*/
+    /*
     #video-container {
-        position: relative;
-        top: 10px;
-        margin-left: 15%;
-        height: 200px;
-        float: left;
+        width: 50%;
     }
+*/
     
     .iframe-holder {
         display: block;
         height: 270px;
         width: 480px;
+        padding-top: 20px;
         margin: 0 auto;
     }
     
     #subtitles {
-        position: relative;
-        top: 150px;
-        font-size: 30px;
-        left: 100px;
+        position: absolute;
+        font-size: 1.5em;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
         height: 100px;
         display: -webkit-inline-box;
+        padding-top: 20px;
     }
     
     .highlight {
