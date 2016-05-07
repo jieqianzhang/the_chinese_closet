@@ -10,10 +10,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/3d-falling-leaves.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-    <!-- <link rel="stylesheet" href="css/reset.css"> -->
-    <!-- CSS reset -->
-    <!-- <link rel="stylesheet" href="css/nav.css"> <!Resource style -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style4.css" />
     <script src="js/modernizr.js"></script>
     <meta property="fb:app_id" content="" />
     <meta property="og:type" content="" />
@@ -33,12 +31,9 @@
     <meta name="twitter:image:width" content="" />
     <meta name="twitter:image:height" content="" />
     <style>
-    /******************************************************************************* falling leaves effect ****************************************************************************************************/
+
     </style>
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 <script>
 </script>
@@ -98,14 +93,23 @@
         </ul>
     </nav>
     <!--    end of the navigation bar-->
+
+
+
     <!--    start of the scroll button-->
-    <section id="scroll_button" class="scroll">
+    <section id="scroll_button" class="scroll" data-0="opacity:1;" data-1000="opacity:0;">
         <a href=""><span></span>Scroll</a>
     </section>
     <!--end of the scroll button -->
-    <div id="fullpage">
-        <!--         <div class="row" data-0="opacity:1; transform:translate3d(0px,0px,0px);" data--1000-bottom="transform:translate3d(0px,1000px,0px); opacity:0;"> -->
-        <div class="row section" id="landing_page">
+
+
+
+
+    <div id="skrollr-body">
+
+
+        <!-- start of the landing page content-->
+        <div class="row" id="landing_page">
             <div class="main-sketch col-sm-7">
                 <img class="img-responsive" img-responsive src="assets/images/landing_page.png">
             </div>
@@ -114,66 +118,109 @@
                     <h2>On the Struggle</h2>
                     <h1>The Chinese Closet and HIV</h1>
                     <h5>By Fan Fei, Jieqian Zhang and Tailai Zhou </h5>
+                    <p id="main_intro">What does China look like to you? For many people, China is Beijing and Shanghai, a country with modern cities, huge skyscrapers, and the world’s second largest economy. For other people, China is crowded with an enormous population, supplying a cheap labor that makes it possible for their iPhones to ship on time. But underneath this modern looking, China is lagging behind in many of its culture values. One is the country’s acceptance of homosexuality.
+                    </p>
                 </div>
             </div>
         </div>
-        <!-- end of the landing page content-->
-        <!--            start of the first intro paragraph -->
-        <div class="row section" id="intro">
-            <div class="col-sm-12 intro1">
-                <h3 class="intro" data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0"> 
 
-                HIV is on the rise in China’s gay community. According to the Chinese Center for Disease Control and Prevention, the HIV rate among gay men in China is about 8 percent in 2015. That’s up from 6 percent in 2011. This is disproportionally higher than China’s general population. </h3>
+
+        <!-- start of the first intro paragraph -->
+        <div class="section">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 intro1">
+                <h3 class="intro" data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0"> 
+               China has a population of 1.37 billion. Experts say there are more than 20 million gay men in the country. To put it into perspective, California’s population is around 40 million currently. Being gay is hard in China. Homosexuality was a crime there until 1997, and was considered as a mental illness until 2001. Gay marriage has never been legal. Although the Chinese society is starting to become more tolerant of the LGBT community, being gay is still stigmatized in much of China today. </h3>
             </div>
+            <div class="col-sm-3"></div>
         </div>
-        <!--            end of the first intro paragraph -->
-        <!--            start of the second intro paragraph -->
-        <!--            start of the graphics -->
-        <div class="graphic_container section">
-            <!--            <img class="img-responsive graphic graphic1" src="assets/graphics/graphic1.svg" data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:0">-->
-            <img class="img-responsive graphic graphic1" src="assets/graphics/graphic1.svg" data-0="position:relative; opacity:0" data-center="position:fixed; opacity:1" data--20p-center="opacity:1" data--50p-center="opacity:0">
+        <!-- end of the first intro paragraph -->
+
+
+        <div class="section">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 intro1">
+                <h3 class="intro" data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0"> 
+               The issue becomes more complicated when HIV is involved. The disease is on the rise in China’s gay community. According to the Chinese Center for Disease Control and Prevention (CDC), HIV positive rate among gay men in China is about 8 percent in 2015. That’s up from 6 percent four years ago, in 2011. According to the Chinese CDC, gay men now account for 27 percent of all new HIV infections. And yet experts say gay men make up less than five percent of China’s population.   </h3>
+            </div>
+            <div class="col-sm-3"></div>
         </div>
+
+
+
+
+        <!-- start of the graphics -->
         <div class="graphic_container section">
-            <!--            <img class="img-responsive graphic graphic2" src="assets/graphics/graphic2.svg" data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:0">-->
-            <img class="img-responsive graphic graphic2" src="assets/graphics/graphic2.svg" data-0="position:static" data-center="position:fixed; opacity:1" data--20p-center="opacity:1" data--50p-center="opacity:0">
+            <img class="img-responsive graphic graphic1" src="assets/graphics/graphic1.svg" data-0="opacity:0" data-100-bottom="opacity:0" data-center="opacity:1" data-200-top-bottom="opacity:0">
+            <!--            <img class="img-responsive graphic graphic1" src="assets/graphics/graphic1.svg" data-0="position:relative; opacity:0" data-center="position:fixed; opacity:1" data--20p-center="opacity:1" data--50p-center="opacity:0">-->
         </div>
+
         <div class="graphic_container section">
-            <!--            <img class="img-responsive graphic graphic4" src="assets/graphics/graphic4.svg" data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:0">-->
-            <img class="img-responsive graphic graphic4" src="assets/graphics/graphic4.svg" data-0="position:static" data-center="position:fixed; opacity:1" data--20p-center="opacity:1" data--50p-center="opacity:0">
+            <img class="img-responsive graphic graphic2" src="assets/graphics/graphic2.svg" data-0="opacity:0" data-100-bottom="opacity:0" data-center="opacity:1" data-top-bottom="opacity:0">
+            <!--            <img class="img-responsive graphic graphic2" src="assets/graphics/graphic2.svg" data-0="position:static" data-center="position:fixed; opacity:1" data--20p-center="opacity:1" data--50p-center="opacity:0">-->
+        </div>
+
+        <div class="graphic_container section">
+            <img class="img-responsive graphic graphic4" src="assets/graphics/graphic4.svg" data-0="opacity:0" data-100-bottom="opacity:0" data-center="opacity:1" data-top-bottom="opacity:0">
+            <!--            <img class="img-responsive graphic graphic4" src="assets/graphics/graphic4.svg" data-0="position:static" data-center="position:fixed; opacity:1" data--20p-center="opacity:1" data--50p-center="opacity:0">-->
         </div>
 
         <div class="spacer" style="height:50vh"></div>
 
+
         <div class="row">
-      		<div class="col-sm-3"></div>
+            <div class="col-sm-3"></div>
             <div class="intro2 col-sm-6">
-                <h4 data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">There are many reasons for the surge. Wang Xiaodong, the founder of Chengdu Tongle, a nonprofit dedicated to HIV prevention, said gay men are much more likely to contract HIV than the general population. </h4>
-                <h4 data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">"For the general population, the HIV rate might be point zero one percent. It’s point one percent in some places. But for the gay community, HIV positive rate might be as high as 10 percent. The difference is huge,” He said. “Also without any protection, gay sex is much more likely to transmit HIV than straight sex.” </h4>
-                <h4 data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">Dr. Liao Meizhen, who works for Shandong Province CDC in China, said not enough people are using condoms in the gay community. </h4>
-                <h4 data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">“In Shandong Province, the rate of condom use in the gay community is only in the range of 40 to 50 percent in the latest month ,” Liao said. “I interviewed many gay men about their use of condoms. They prefer pleasure over safety. The reason could be that there’s too much oppression on gay sex, and then they feel condom prevents them from getting the pleasure they want. Especially those gay men in straight marriages, they have experienced long term pressure not to have gay sex. And when they do have it, they tend to engage in high risk sex.”</h4>
-                <h4 data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">Liao also said the CDC has limited resources. “Shandong Province has over 100 counties, and each county has a population over one million people. The least populated county has 300,000 to half a million people. But each county has only one to three CDC staff dedicated to HIV prevention.” </h4>
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">There are many reasons for the rise of HIV in the gay community. Wang Xiaodong, the founder of Chengdu Tongle, a nonprofit dedicated to HIV prevention in China, said that gay men are much more likely to contract HIV than the general population. “For the general population, the HIV rate might be point zero one percent. It’s point one percent in some places. But for the gay community, HIV positive rate might be as high as 10 percent. The difference is huge,” He said. “Also without any protection, gay sex is much more likely to transmit HIV than straight sex.” </p>
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0"> Dr. Liao Meizhen, who works for Shandong Center for Disease Control and Prevention in China said not enough people are using condoms in the gay community.
+                </p>
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">“In Shandong Province, the rate of condom use in the gay community is only in the range of 40 to 50 percent in the latest month ,” Liao said. “I interviewed many gay men about their use of condoms. They prefer pleasure over safety. The reason could be that there’s too much oppression on gay sex, and then they feel condom prevents them from getting the pleasure they want. Especially those gay men in heterosexual marriages, they have experienced long term pressure not to have gay sex. And when they do have it, they tend to engage in high risk sex.”
+                </p>
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">Liao also said the CDC has limited resources to contain HIV. “Shandong Province has over 100 counties, and each county has a population over one million people. The least populated county still has three hundred thousand to half a million people. But each county has only one to three CDC staff dedicated to HIV prevention.”
+                </p>
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">The lack of sex education also contributes to the rise of HIV, especially in gay youth. “It’s a Chinese tradition that we don’t talk about sex,” Zhang Beichuan, a professor at Qingdao University's Medical School said. Zhang has been researching gay men and HIV since 1990s.
+                </p>
 
-                <h4 data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">The lack of sex education also contributes to the rise of HIV. “It’s a Chinese tradition that we don’t talk about sex,” Zhang Beichuan, a professor at Qingdao University's Medical School said. Zhang has been researching gay men and HIV since 1990s. </h4>
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">“Did Sun Yat-sen talk about sex? Did Chiang Kai-shek talk about sex? Did Mao Zedong talk about sex? Deng Xiaoping didn’t talk about sex. Xi Jinping didn’t talk about sex. It’s not about party politics. It’s a heritage of anti-sex culture,” Zhang said, describing a long history of Chinese leaders who never addressed such taboo subjects.
+                </p>
 
-                <h4 data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">“Did Sun Yat-sen talk about sex? Did Chiang Kai-shek talk about sex? Did Mao Zedong talk about sex? Deng Xiaoping didn’t talk about sex. Xi Jinping didn’t talk about sex. It’s not about party politics. It’s a heritage of anti-sex culture,” he said, describing a long history of Chinese leaders who never addressed such taboo subjects.</h4>
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">Not talking about sex doesn’t mean the youth are not having sex. According to a survey conducted in 2009, commissioned by the United Nations Population Fund, among the young people in China who are sexually active and are aged from 15 to 24, half of them didn’t use any birth control options during their first sex.
+                </p>
+
+                <p data-0="opacity:0" data-20p-center="opacity:0" data-center="opacity:1" data--20p-center="opacity:1" data-top="opacity:0">According to the Chinese CDC, the number of HIV positive high school and college students increased sharply by 35 percent every year from 2011 to 2015. And HIV hit gay students much harder than straight students. The Chinese CDC reports that from 2014 to October 2015, gay students accounted for more than 80 percent of new student HIV infections
+                </p>
 
             </div>
             <div class="col-sm-3"></div>
         </div>
 
 
+
         <div style="height:50vh"></div>
 
 
         <!--start of story one-->
+
         <div class="section" id="story1">
             <h3 class="story_nm">Story I</h3>
             <div class="story_line"></div>
-            <h1 class="story_name">I am married to a woman</h1>
-            <h4 class="story_intro">Homosexuality was a crime in China until 1997, and was considered as a mental illness until 2001. Being gay is still stigmatized in much of China today. </h4>
-            <h4 class="story_intro">Zhang Beichuan, a professor at Qingdao University's Medical School, estimates that China has twenty million gay men, and about eighty percent of them are married to or will marry women. There are concerns about HIV positive married gay men transmitting the virus to their wives, and then having it spread into the heterosexual community.</h4>
-            <img class="img-responsive father_son" img-responsive src="assets/images/father_son.png">
+            <h1 class="story_name">I am Married to a Woman</h1>
+            <p class="story_intro">Homosexuality was a crime in China until 1997, and was considered as a mental illness until 2001. Being gay is still stigmatized in much of China today.</p>
+            <p class="story_intro">Zhang Beichuan, a professor at Qingdao University's Medical School, estimates that China has twenty million gay men, and about eighty percent of them are married to or will marry women. There are concerns about HIV positive married gay men transmitting the virus to their wives, and then having it spread into the heterosexual community.</p>
         </div>
+
+        <div class="section embed-responsive embed-responsive-16by9">
+
+            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/165102678" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+        </div>
+
+
+
+
+
+
+
         <div class="section" id="section0">
             <!--           <img class="walking_man" img-responsive src="assets/images/walking_man1.svg">-->
         </div>
@@ -182,8 +229,7 @@
             <h3 class="story_nm">Story II</h3>
             <div class="story_line"></div>
             <h1 class="story_name">Finding me</h1>
-            <h4 class="story_intro">Sweet roll apple pie muffin tootsie roll donut candy canes liquorice danish. Tootsie roll sweet roll marshmallow candy canes tart. Gingerbread apple pie jujubes cake bear claw. Lemon drops caramels
-cookie icing danish toffee cotton candy donut gummies.</h4>
+            <p class="story_intro">Sweet roll apple pie muffin tootsie roll donut candy canes liquorice danish. Tootsie roll sweet roll marshmallow candy canes tart. Gingerbread apple pie jujubes cake bear claw. Lemon drops caramels cookie icing danish toffee cotton candy donut gummies.</p>
         </div>
         <!--
         
@@ -192,97 +238,97 @@ cookie icing danish toffee cotton candy donut gummies.</h4>
         <div class="row" id="section0">
             <div class="dialogue_main_container col-sm-6">
 
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>hey</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>how are u</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>whats your situation?</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>what do you mean situation</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>height/weight/age?</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>5’8/120/19</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>are u a top/bottom? </h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>what is that?</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>u are new to this circle huh?</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>what circle? </h4>
                     </div>
                 </div>
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>r u not gay?</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>right now... I don't know if I'm gay or not</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>your role is either a top or a bottom</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>how do i know if I'm a top or a bottom?</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_left">
+                <div class="dialogue_container_left" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_left" src="assets/images/dialogue_left.svg">
                     <div class="dialogue_text">
                         <h4>a top is someone who likes to fuck a btm likes to be fucked</h4>
                     </div>
                 </div>
-                <div class="dialogue_container_right">
+                <div class="dialogue_container_right" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:1" data-top="opacity:0">
                     <img class="dialogue_right" src="assets/images/dialogue_right.svg">
                     <div class="dialogue_text">
                         <h4>I don't know. I haven't had gay sex yet</h4>
@@ -302,16 +348,15 @@ cookie icing danish toffee cotton candy donut gummies.</h4>
             <h3 class="story_nm">Story III</h3>
             <div class="story_line"></div>
             <h1 class="story_name">Underaged youth</h1>
-            <h4 class="story_intro">According to a survey commissioned by the United Nations Population Fund, among the young people in China who are sexually active and are aged from 15 to 24, half of them didn’t use any protection during their first sex. </h4>
-            <h4 class="story_intro">According to the Chinese Center for Disease Control and Prevention, the number of HIV positive high school and college students increased sharply by 35 percent each year from 2011 to 2015. But HIV rates hit gay students much harder than straight students. The Chinese CDC also reports that from 2014 to October 2015, gay students accounted for more than 80 percent of new student HIV infections.</h4>
+            <p class="story_intro">According to a survey commissioned by the United Nations Population Fund, among the young people in China who are sexually active and are aged from 15 to 24, half of them didn’t use any protection during their first sex. </p>
+            <p class="story_intro">According to the Chinese Center for Disease Control and Prevention, the number of HIV positive high school and college students increased sharply by 35 percent each year from 2011 to 2015. But HIV rates hit gay students much harder than straight students. The Chinese CDC also reports that from 2014 to October 2015, gay students accounted for more than 80 percent of new student HIV infections.</p>
         </div>
         <!--        start of story 4 -- Jiulong-->
         <div class="section" id="story4">
             <h3 class="story_nm">Story IV</h3>
             <div class="story_line"></div>
             <h1 class="story_name">Fighting back</h1>
-            <h4 class="story_intro">Sweet roll apple pie muffin tootsie roll donut candy canes liquorice danish. Tootsie roll sweet roll marshmallow candy canes tart. Gingerbread apple pie jujubes cake bear claw. Lemon drops caramels
-cookie icing danish toffee cotton candy donut gummies.</h4>
+            <p class="story_intro">Sweet roll apple pie muffin tootsie roll donut candy canes liquorice danish. Tootsie roll sweet roll marshmallow candy canes tart. Gingerbread apple pie jujubes cake bear claw. Lemon drops caramels cookie icing danish toffee cotton candy donut gummies.</p>
         </div>
         <div class="section">
             <div class="embed-responsive embed-responsive-16by9">
@@ -325,52 +370,59 @@ cookie icing danish toffee cotton candy donut gummies.</h4>
                     <!--                    <source src="assets/video/world_map_bk_yellow.webm" type="video/webm" />-->
                     <source src="assets/video/world_map_bk_yellow.mp4" type="video/mp4" />
                 </video>
-                <div class="circles img-responsive">
-                    <div class="red_circle">
-                        <h2>STREET INTERVIEW</h2>
-                        <h4>How much do Chinese know about gay men and HIV?</h4>
-                    </div>
-                </div>
+                <!--
+<div class="circles img-responsive">
+    <div class="red_circle">
+        <h2>STREET INTERVIEW</h2>
+        <h4>How much do Chinese know about gay men and HIV?</h4>
+    </div>
+</div>
+-->
             </div>
         </div>
         <!--    start of filmstrip-->
-        <div class="section">
-            <!--<div class="container-fluid content">-->
-            <!--         <div class="row" data-0="opacity:1; transform:translate3d(0px,0px,0px);" data--1000-bottom="transform:translate3d(0px,1000px,0px); opacity:0;"> -->
-            <div class="row" id="header" data-0="opacity:1">
-                <!--  <div class="scroll col-sm-1">
-                    <h5>Scroll</h5>
-                </div> -->
-                <div id="question_title">We asked people on the street to answer the following questions.</div>
-                <ul id="keyword">
-                    <li id="question1">Homosexuality</li>
-                    <li id="question2">Love? Brotherhood?</li>
-                    <li id="question3">HIV Transmission</TABLE>
-                    </li>
-                    <li id="question4">HIV & Gay</li>
-                    <li id="question5">Treatment Cost</li>
-                    <li id="question6">Life Expectancy</li>
-                </ul>
-                <div id="filmstrip">
-                    <iframe class="streetinterview" id="video1" src="https://player.vimeo.com/video/163781314" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <iframe class="streetinterview" id="video2" src="https://player.vimeo.com/video/164648733" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <iframe class="streetinterview" id="video3" src="https://player.vimeo.com/video/164648838" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <iframe class="streetinterview" id="video4" src="https://player.vimeo.com/video/164760532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <iframe class="streetinterview" id="video5" src="https://player.vimeo.com/video/164760500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <iframe class="streetinterview" id="video6" src="https://player.vimeo.com/video/164760546" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <!--   <img class="img-responsive graphic graphic2" img-responsive src="assets/images/graphic2.png"> -->
-                    <!--  <img class="img-responsive graphic graphic3" img-responsive src="assets/images/graphic3.png" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:0" data--400-top="opacity:1"> -->
-                </div>
-                <div id="subtitles"></div>
-                <!--   <img class="img-responsive graphic graphic2" img-responsive src="assets/images/graphic2.png"> -->
-                <!--  <img class="img-responsive graphic graphic3" img-responsive src="assets/images/graphic3.png" data-0="opacity:0" data-bottom="opacity:0" data-center="opacity:0" data--400-top="opacity:1"> -->
+        <!--       <div class="section">-->
+
+
+        <div class="container-fluid content">
+
+            <div class="row" id="header">
+                <div id="question_title">We asked people on the street to talk about the following topics.</div>
+                <section>
+                    <div class="container">
+                        <select id="cd-dropdown" class="video-selector cd-select">
+                            <option value="-1" selected> Pick a topic</option>
+                            <option value="homosexuality">Homosexuality</option>
+                            <option value="love">Love? Brotherhood?</option>
+                            <option value="transmission">HIV Transmission</option>
+                            <option value="correction">HIV &amp; Gay</option>
+                            <option value="cost">Treatment Cost</option>
+                            <option value="life">Life Expectancy</option>
+                        </select>
+                    </div>
+
+                    <div id="video-container">
+                        <iframe class="iframe-holder" id="video1" src="https://player.vimeo.com/video/163781314" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </section>
+                <section>
+
+                    <div id="subtitles"></div>
+                </section>
             </div>
         </div>
+
+
     </div>
+
+
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.vimeo.api.js"></script>
+    <script src="js/jquery.vimeo.api.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
     <script src="js/d3.v3.min.js"></script>
     <script src="js/skrollr.js"></script>
+    <script src="js/modernizr.custom.63321.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
     <!--
 <script src="js/jquery.slimscroll.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
@@ -380,35 +432,9 @@ cookie icing danish toffee cotton candy donut gummies.</h4>
     <script src="js/rotate3Di.min.js" type="text/javascript"></script>
     <script src="js/3d-falling-leaves.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-    var s = skrollr.init();
+        var s = skrollr.init();
 
-    //        $(document).ready(function () {
-    //            $('#fullpage').fullpage({
-    //                scrollBar: true,
-    //                scrollOverflow: true
-    //                    //                normalScrollElements: '#section0'
-    //            });
-    //        });
-
-    /** For Debugging ***/
-
-    //            var scrollAmount = $("<div />")
-    //                .css({
-    //                    "position": "fixed",
-    //                    "top": 0,
-    //                    "right": 0,
-    //                    "z-index": 9999999
-    //                })
-    //                .appendTo("body");
-    //
-    //            $(window).on("scroll", function () {
-    //
-    //                scrollAmount.text($(window).scrollTop());
-    //
-    //
-    //            })
-
-    $(document).octoberLeaves();
+        $(document).octoberLeaves();
     </script>
 </body>
 
