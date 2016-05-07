@@ -601,8 +601,8 @@ var questions = {
 var videos = {
     "homosexuality": "https://player.vimeo.com/video/163781314",
     "love": "https://player.vimeo.com/video/164648733",
-    "transmission": "https://player.vimeo.com/video/164760532",
-    "correction": "https://player.vimeo.com/video/164760500",
+    "transmission": "https://player.vimeo.com/video/164648838",
+    "correction": "https://player.vimeo.com/video/164760532",
     "cost": "https://player.vimeo.com/video/164760500",
     "life": "https://player.vimeo.com/video/164760546"
 };
