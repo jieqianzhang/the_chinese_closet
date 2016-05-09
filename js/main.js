@@ -599,12 +599,12 @@ var questions = {
 };
 
 var videos = {
-    "homosexuality": "https://player.vimeo.com/video/163781314",
-    "love": "https://player.vimeo.com/video/164648733",
-    "transmission": "https://player.vimeo.com/video/164648838",
-    "correction": "https://player.vimeo.com/video/164760532",
-    "cost": "https://player.vimeo.com/video/164760500",
-    "life": "https://player.vimeo.com/video/164760546"
+    "homosexuality": "https://player.vimeo.com/video/165714593",
+    "love": "https://player.vimeo.com/video/165714597",
+    "transmission": "https://player.vimeo.com/video/165714599",
+    "correction": "https://player.vimeo.com/video/165715477",
+    "cost": "https://player.vimeo.com/video/165715273",
+    "life": "https://player.vimeo.com/video/165715426"
 };
 
 var videoSequences = {
