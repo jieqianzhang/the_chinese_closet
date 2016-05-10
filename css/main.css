@@ -131,6 +131,21 @@
         padding-right: 40px;
         text-align: left;
     }
+    
+    #china_map_container {
+        position: relative;
+        height: 200px;
+    }
+    
+    #china_map {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
+    }
     /*start of the media query */
     /*desktop view*/
     
@@ -191,6 +206,41 @@
             font-size: 1.2em;
             line-height: 1.3em;
         }
+        .container {
+            position: relative;
+            margin-top: 10px;
+            width: 15%;
+            left: 30%;
+            float: left;
+            z-index: 100;
+        }
+        #video-container {
+            position: relative;
+            margin-top: 110px;
+            left: -35%;
+            /*            height: 200px;*/
+            float: left;
+        }
+        .iframe-holder {
+            display: block;
+            /*            height: 270px;*/
+            width: 100%;
+            padding-top: 20px;
+            margin: 0 auto;
+        }
+        #subtitles {
+            position: relative;
+            font-size: 10px;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            -webkit-transform: translate(-50%, 0%);
+            -moz-transform: translate(-50%, 0%);
+            -ms-transform: translate(-50%, 0%);
+            -o-transform: translate(-50%, 0%);
+            height: 100px;
+            display: -webkit-inline-box;
+            margin-top: 100px;
+        }
     }
     /*************Story one - Maitian*****************/
     
@@ -217,29 +267,15 @@
 }
 */
     
-    .dialogue_left {
-        width: 200px;
-    }
-    
-    .dialogue_right {
-        width: 200px;
-    }
-    
     .dialogue_main_container {
         padding-top: 20px;
         padding-bottom: 200px;
     }
     
-    .dialogue_text {
-        position: absolute;
-        width: 200px;
-        top: 10%;
-        left: 0%;
-        text-align: center;
-    }
-    
-    .dialogue_text h4 {
-        font-size: 16px;
+    .walking_man_container {
+        position: relative;
+        height: 100%;
+        display: table;
     }
     
     @media(min-width: 768px) {
@@ -249,24 +285,61 @@
         }
         .walking_man {
             width: 50% !important;
-            å
             /*        position: absolute;*/
             /*
         bottom: 0px;
         right: 0px
 */
         }
+        .dialogue_left {
+            width: 300px;
+        }
+        .dialogue_right {
+            width: 300px;
+        }
+        .dialogue_text {
+            position: absolute;
+            width: 230px;
+            top: 20%;
+            left: 15%;
+            text-align: center;
+        }
+        .dialogue_text h4 {
+            font-size: 1.5em;
+        }
+        .dialogue_text_big h4 {
+            font-size: 1.5em;
+        }
         .dialogue_container_left {
             position: relative;
             width: 200px;
-            margin-top: 100px;
-            margin-left: 50px;
+            margin-top: 50px;
+            margin-left: -30px;
         }
         .dialogue_container_right {
             position: relative;
             width: 200px;
-            margin-top: 80px;
-            margin-left: 20%;
+            margin-top: 50px;
+            margin-right: -30px;
+        }
+        .dialogue_right_big {
+            position: relative;
+            width: 350px;
+            margin-top: 50px;
+            margin-right: -30px;
+        }
+        .dialogue_left_big {
+            position: relative;
+            width: 350px;
+            margin-top: 50px;
+            margin-right: -20px;
+        }
+        .dialogue_text_big {
+            position: absolute;
+            width: 270px;
+            top: 40%;
+            left: 17%;
+            text-align: center;
         }
     }
     
@@ -280,17 +353,55 @@
             /*        position: absolute;*/
             /*        bottom: 0px;*/
         }
+        .dialogue_left {
+            width: 200px;
+        }
+        .dialogue_right {
+            width: 200px;
+        }
+        .dialogue_text {
+            position: absolute;
+            width: 200px;
+            top: 10%;
+            left: 0%;
+            text-align: center;
+        }
+        .dialogue_text h4 {
+            font-size: 16px;
+        }
+        .dialogue_text_big h4 {
+            font-size: 16px;
+        }
         .dialogue_container_left {
             position: relative;
             width: 200px;
             margin-top: 50px;
-            margin-left: 50px;
+            margin-left: -30px;
         }
         .dialogue_container_right {
             position: relative;
             width: 200px;
             margin-top: 50px;
-            margin-left: 150px;
+            margin-right: -30px;
+        }
+        .dialogue_right_big {
+            position: relative;
+            width: 250px;
+            margin-top: 50px;
+            margin-right: -30px;
+        }
+        .dialogue_left_big {
+            position: relative;
+            width: 300px;
+            margin-top: 50px;
+            margin-right: -20px;
+        }
+        .dialogue_text_big {
+            position: absolute;
+            width: 220px;
+            top: 40%;
+            left: 10%;
+            text-align: center;
         }
     }
     /*************Story three - Xiaoxin*****************/
@@ -573,19 +684,27 @@ end of the navigation bar
         padding-left: 20px;
         padding-right: 20px;
     }
-    /*
-    section {
-      width: 100%;
-      height: 200px;
-      margin: auto;
-      padding: 10px;
-  }
-*/
-    /*
-    #video-container {
-        width: 50%;
+    /* section{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        padding: 10px;
+    }*/
+    
+    .container {
+        position: absolute;
+        margin-left: -30%;
+        float: left;
+        top: 10px;
     }
-*/
+    
+    #video-container {
+        position: absolute;
+        top: 30px;
+        margin-left: 40%;
+        height: 200px;
+        float: left;
+    }
     
     .iframe-holder {
         display: block;
@@ -606,7 +725,7 @@ end of the navigation bar
         -o-transform: translate(-50%, 0%);
         height: 100px;
         display: -webkit-inline-box;
-        padding-top: 20px;
+        top: 330px;
     }
     
     .highlight {
