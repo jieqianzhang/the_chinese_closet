@@ -194,7 +194,7 @@ var subtitles_for_video = [[
         },
         {
             time: 39.11,
-            caption: " They probably feel <span class=\"highlight\">insecure</span> about the opposite sex."
+            caption: " They probably feel <span class=\"highlight\">insecure</span> about the society and the opposite sex."
         },
 
   ], [ //subtitle for video3
@@ -336,7 +336,7 @@ var subtitles_for_video = [[
         },
         {
             time: 116.16,
-            caption: " ANYONE who’s in an <span class=\"highlight\">abnormal</span> or <span class=\"highlight\">adulterous</span> relationship is more likely to get HIV. "
+            caption: " Anyone who’s in an <span class=\"highlight\">abnormal</span> or <span class=\"highlight\">adulterous</span> relationship is more likely to get HIV. "
         },
         {
             time: 122.21,
@@ -599,12 +599,12 @@ var questions = {
 };
 
 var videos = {
-    "homosexuality": "https://player.vimeo.com/video/165714593",
-    "love": "https://player.vimeo.com/video/165714597",
-    "transmission": "https://player.vimeo.com/video/165714599",
-    "correction": "https://player.vimeo.com/video/165715477",
-    "cost": "https://player.vimeo.com/video/165715273",
-    "life": "https://player.vimeo.com/video/165715426"
+    "homosexuality": "https://player.vimeo.com/video/165714593?title=0&byline=0&portrait=0&color=BBAB9B",
+    "love": "https://player.vimeo.com/video/165714597?title=0&byline=0&portrait=0&color=BBAB9B",
+    "transmission": "https://player.vimeo.com/video/165714599?title=0&byline=0&portrait=0&color=BBAB9B",
+    "correction": "https://player.vimeo.com/video/165715477?title=0&byline=0&portrait=0&color=BBAB9B",
+    "cost": "https://player.vimeo.com/video/165715273?title=0&byline=0&portrait=0&color=BBAB9B",
+    "life": "https://player.vimeo.com/video/165715426?title=0&byline=0&portrait=0&color=BBAB9B"
 };
 
 var videoSequences = {
