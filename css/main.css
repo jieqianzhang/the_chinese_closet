@@ -154,6 +154,23 @@
         right: 10%;
         width: 50%;
     }
+    
+    .credits_button {
+        position: absolute;
+        right: 40px;
+        top: 10px;
+        font-family: "Roboto", san-serif;
+        z-index: 999999;
+    }
+    
+    a:link.source_link {
+        text-decoration: none;
+    }
+    
+    a:hover.source_link {
+        text-decoration: none;
+        color: black;
+    }
     /*start of the media query */
     /*desktop view*/
     
