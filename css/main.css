@@ -150,9 +150,14 @@
     .graphic_container p {
         position: absolute;
         bottom: 0%;
+        text-align: center;
         font-size: 12px;
-        right: 10%;
-        width: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
     }
     
     .credits_button {
@@ -165,9 +170,15 @@
     
     a:link.source_link {
         text-decoration: none;
+        color: black;
     }
     
     a:hover.source_link {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:after.source_link {
         text-decoration: none;
         color: black;
     }
